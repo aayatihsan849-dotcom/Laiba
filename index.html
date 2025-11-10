@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tables</title>
+</head>
+
+<body>
+<h1>Employee Information</h1>
+
+    <table border="1">
+        <!-- Table Headings -->
+        <tr>
+            <th colspan="2">Employee ID</th>
+            <th colspan="2">Name</th>
+            <th>Position</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Joining Date</th>
+        </tr>
+        <tr>
+            <td colspan="2">101</td>
+            <td colspan="2">John Doe</td>
+            <td>Manager</td>
+            <td>Sales</td>
+            <td>$65,000</td>
+            <td>2022-01-15</td>
+        </tr>
+        <tr>
+            <td colspan="2">102</td>
+            <td colspan="2">Jane Smith</td>
+            <td>Analyst</td>
+            <td>Finance</td>
+            <td>$50,000</td>
+            <td>2022-03-10</td>
+        </tr>
+        <tr>
+            <td colspan="2">103</td>
+            <td colspan="2">Michael Johnson</td>
+            <td rowspan="2">Developer</td>
+            <td>IT</td>
+            <td>$55,000</td>
+            <td>2022-02-05</td>
+        </tr>
+        <tr>
+            <td colspan="2">104</td>
+            <td colspan="2">Emily Davis</td>
+            <td>HR</td>
+            <td>$52,000</td>
+            <td>2022-04-01</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="8" style="text-align:center;"><strong>Total Employees: 4</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+  
+</body>
+
+</html>
